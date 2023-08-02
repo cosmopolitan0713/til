@@ -1,6 +1,15 @@
-# メッセージを表示
+# System.out.printlnはデータを表示するメソッド
 public class Main {
 　　public static void main(string[] args) {
 　　　　System.out.println("Hello world");
+　　}
+}
+
+
+#メッセージを2行表示する
+public class Main {
+　　public static void main(string[] args) {
+　　　　System.out.println("Hello world");
+　　　　System.out.println("Hello japan");
 　　}
 }
