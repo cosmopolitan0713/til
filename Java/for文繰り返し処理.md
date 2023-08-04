@@ -10,6 +10,9 @@ public class Main {
 　　}  
 }  
 ## for (int i = 0; i < 5l i++)  
-### 初期値 i = 0;  
-### 繰り返し条件 i < 5;  
-### 変化文 i++
+### 初期値　i = 0;  
+### 繰り返し条件　i < 5;  
+### 変化文　i++  
+
+###　カウンター変数を表示する  
+System.out.println(greeting + ":" + i);  
