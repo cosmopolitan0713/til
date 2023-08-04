@@ -10,7 +10,7 @@ public class Main {
 　　　　　　System.out.println("Welcome");  
 　　　　} else if (number > 10) {  
 　　　　　　System.out.println("Good mornig");  
-  　　　} else {
+　　　　} else {
 　　　　　　System.out.println("Goodbye");  
 　　　　}  
 　　}  
