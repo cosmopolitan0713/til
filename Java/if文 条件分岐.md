@@ -21,7 +21,7 @@ public class Main {
 import java.util*;  
 
 public class Main {  
-　　public static void main(String[] args) {
+　　public static void main(String[] args) {  
 　　　　Scanner scan = new Scanner(System in);  
 　　　　String name = scan.next();  
 　　　　System.out.println("Hello + name");  
@@ -32,7 +32,7 @@ public class Main {
 　　　　　　System.out.println("Goog morning");  
 　　　　} else {  
 　　　　　　System.out.println("Goodbye");  
-　　　　}
+　　　　}  
 　　}  
 }  
 
