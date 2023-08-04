@@ -14,5 +14,5 @@ public class Main {
 ### 繰り返し条件　i < 5;  
 ### 変化文　i++  
 
-###　カウンター変数を表示する  
-####　System.out.println(greeting + ":" + i);  
+### カウンター変数を表示する  
+#### System.out.println(greeting + ":" + i);  
