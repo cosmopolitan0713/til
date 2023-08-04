@@ -15,4 +15,4 @@ public class Main {
 ### 変化文　i++  
 
 ###　カウンター変数を表示する  
-System.out.println(greeting + ":" + i);  
+####　System.out.println(greeting + ":" + i);  
