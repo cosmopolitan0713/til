@@ -12,9 +12,6 @@ class Main {
 if ( 条件式 ) {  
 　条件式を満たす時に実行する処理  
 }  
-  
-## 条件に合わせて処理を変える
-import java.util.*;  
 
 ## else、else ifの使い方  
 class Main {  
@@ -37,7 +34,10 @@ if (条件A) {
 } else {  
 　// 処理C  
 }  
-  
+
+
+## 条件に合わせて処理を変える
+import java.util.*;    
 public class Main {  
 　　public static void main(String[] args) {  
 　　　　Scanner scan = new Scanner(System.in);  
