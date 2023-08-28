@@ -1,0 +1,134 @@
+body {
+  background-color:#daedf9;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  padding-top: 55px;
+}
+
+.todoAppWrapper {
+  max-width: 530px;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 17px 32px 27px 4px #777777;
+  border-radius: 10px;
+}
+
+a {
+  color: #595959;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,104,121,1) 42%, rgba(0,57,255,1) 82%);
+  border-radius: 10px 10px 0 0;
+  color: white;
+}
+
+.taskWrapper {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 1px solid #4646466a;
+}
+
+.taskTitle {
+  display: flex;
+  align-items: center;
+}
+
+.taskComplitedIcon {
+  height: 20px;
+  width: 20px;
+  background-color:lightgreen;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.taskInComplitedIcon {
+  height: 20px;
+  width: 20px;
+  background-color: #595959;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.loginAndlogout {
+  padding: 20px;  
+}
+
+.loginAndlogout a {
+  color: lightcoral;
+}
+
+.editButton {
+  color: aquamarine;
+  margin-right: 5px;
+  
+}
+
+.daleteButton {
+  color: red;
+}
+
+/* タスクの追加と検索 */
+.searchWrapper {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.searchInput {
+  height: 24px;
+  outline: none;
+  border: 1px solid lightseagreen;
+  border-radius: 5px;
+  padding: 2px 4px;
+  width: 160px !important;
+}
+
+.searchButton {
+  border: 1px solid lightseagreen;
+  padding: 4px 10px;
+  background-color: #fafafafa;
+  color: lightseagreen;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.4s;
+}
+
+.searchButton:hover {
+  background-color: lightseagreen;
+  color: white;
+}
+
+.addButton {
+  font-size: 32px;
+  color: lightseagreen;
+}
+
+label {
+  display: block; 
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+}
+
+.accountWrapper{
+  padding: 20px;
+}
+
+.accountWrapper p {
+  padding: 0;
+  margin: 0;
+}
