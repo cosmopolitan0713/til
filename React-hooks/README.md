@@ -1,4 +1,13 @@
-# React + Vite
+
+
+# React + Vite + hooks
+## useState  
+## useEffect  
+## useContext  
+## useRef  
+## useReducer  
+## useMemo  
+## useCallBack
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
