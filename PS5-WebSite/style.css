@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+body {
+  background: linear-gradient(#797db4, #272092);
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 11rem;
+}
+
+.logo {
+  width: 65px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-right: 45px;
+  transition: all 0.4s;
+}
+
+nav ul li a:hover {
+  color: #0172ce;
+}
+
+/* main section */
+.main {
+  margin: 30px 0 20 0px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container .title-section {
+  color: white;
+}
+
+.title-section h2 {
+  font-size: 5.6rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+  line-height: 70px;
+}
+
+.title-section .title {
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.title-section .title::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: -35px;
+  width: 10px;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(233, 130, 219), rgb(158, 80, 158));
+}
+
+.title-section h3 {
+  font-size: 2rem;
+  color: rgb(177, 177, 177);
+  margin-bottom: 10px;
+}
+
+.price p {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.price button {
+  padding: 15px 40px;
+  background: linear-gradient(to right, rgb(233, 130, 219), rgb(158, 80, 158));
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: padding 0.4s;
+}
+
+.price button:hover {
+  color: #0172ce;
+  padding: 20px 45px;
+}
+
+.image-section {
+  position: relative;
+}
+
+.image-section::after {
+  content: "";
+  width: 140%;
+  height: 65%;
+  background: linear-gradient(to right, rgb(233, 130, 219), rgb(128, 10, 118));
+  position: absolute;
+  top: 10%;
+  left: 60px;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.playstation5 {
+  width: 600px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+footer ul li a {
+  display: block;
+  color: white;
+  font-size: 2.3rem;
+  text-decoration: none;
+  margin-right: 45px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+footer ul li a:hover {
+  color: #0172ce;
+  transform: translateY(-10px);
+}
+
+footer ul li {
+  list-style: none;
+  display: inline-block;
+}
